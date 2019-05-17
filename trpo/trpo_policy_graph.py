@@ -153,7 +153,7 @@ class TRPOPolicyGraph(LearningRateSchedule, TRPOPostprocessing, TFPolicyGraph):
         Arguments:
             observation_space: Environment observation space specification.
             action_space: Environment action space specification.
-            config (dict): Configuration values for TRPO graph.
+            config (dict): Configuration values for PPO graph.
             existing_inputs (list): Optional list of tuples that specify the
                 placeholders upon which the graph should be built upon.
         """

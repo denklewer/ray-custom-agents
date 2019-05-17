@@ -9,6 +9,7 @@ from trpo.trpo_policy_graph import TRPOPolicyGraph
 from ray.rllib.optimizers import SyncSamplesOptimizer, LocalMultiGPUOptimizer
 from ray.rllib.utils.annotations import override
 
+
 logger = logging.getLogger(__name__)
 
 # yapf: disable
