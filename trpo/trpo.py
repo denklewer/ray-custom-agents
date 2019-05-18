@@ -8,7 +8,7 @@ from ray.rllib.agents import Trainer, with_common_config
 from ray.rllib.optimizers import SyncSamplesOptimizer, LocalMultiGPUOptimizer
 from ray.rllib.utils.annotations import override
 
-import TRPOPolicyGraph
+from trpo.trpo_policy_graph import TRPOPolicyGraph
 
 logger = logging.getLogger(__name__)
 
