@@ -5,7 +5,7 @@ from __future__ import print_function
 import logging
 
 from ray.rllib.agents import Trainer, with_common_config
-from trpo.trpo_policy_graph import TRPOPolicyGraph
+import TRPOPolicyGraph
 from ray.rllib.optimizers import SyncSamplesOptimizer, LocalMultiGPUOptimizer
 from ray.rllib.utils.annotations import override
 
