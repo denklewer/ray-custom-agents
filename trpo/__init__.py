@@ -1,4 +1,5 @@
 from trpo.trpo import TRPOTrainer, DEFAULT_CONFIG
+from trpo.trpo_policy_graph import TRPOPolicyGraph
 from ray.rllib.agents.ppo.appo import APPOTrainer
 from ray.rllib.utils import renamed_class
 
