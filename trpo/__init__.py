@@ -4,4 +4,4 @@ from ray.rllib.utils import renamed_class
 
 TRPOAgent = renamed_class(TRPOTrainer)
 
-__all__ = ["TRPOAgent", "APPOTrainer", "TRPOTrainer", "DEFAULT_CONFIG"]
+__all__ = ["TRPOPolicyGraph","TRPOAgent", "APPOTrainer", "TRPOTrainer", "DEFAULT_CONFIG"]
